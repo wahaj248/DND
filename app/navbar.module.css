@@ -16,10 +16,6 @@
     font-size: 13px !important;
     line-height: 20px !important;
     color: white !important;
-    /* text-align: center !important; */
-    /* z-index: 1 !important; */
-    /* padding: 10px !important; */
-    /* height: auto !important; */
 }
 
 #navlogo{
@@ -29,5 +25,15 @@
 @media screen and (max-width: 768px) {
     #navlogo{
         display: block;
+    }
+}
+@media screen and (max-width: 324px) {
+    #navlogo{
+        width: 60% !important;
+    }
+    #navlink{
+        width: 75% !important;
+        margin: 0px !important;
+        padding: 0px !important;
     }
 }

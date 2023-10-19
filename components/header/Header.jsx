@@ -8,7 +8,7 @@ import { BiLogoLinkedin } from 'react-icons/Bi';
 
 function Header() {
   return (
-    <div id={styles.headertop} className='container-fluid py-3 overflow-hidden'>
+    <div id={styles.headertop} className='container-fluid py-3 overflow-x-hidden'>
      <div className="row">
      <div className="d-flex justify-around items-center">
         <div className="logo lg:-ms-16 xl:-ms-16">

@@ -2,10 +2,8 @@
 // @client
 
 import React from 'react';
-import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -21,7 +19,7 @@ const navbar = () => {
   return (
     <Navbar expand="lg" id={styles.navbg} className='overflow-hidden bg-dark'>
     <Container fluid>
-      <Navbar.Brand href="#"><img id={styles.navlogo} className='w-100 ms-2' src="/images/navlogo.png" alt="" /></Navbar.Brand>
+      <Navbar.Brand id={styles.navlink} href="#"><img id={styles.navlogo} className='w-100 ms-2' src="/images/navlogo.png" alt="" /></Navbar.Brand>
       <Navbar.Toggle className=' bg-white' aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
