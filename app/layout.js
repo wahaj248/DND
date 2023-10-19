@@ -2,7 +2,7 @@ import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // THIS IS A COMMENT ! "2nd comment 3rd push dfds WAHAJ"
-//ALI
+//ALI i am wahaj
 
 import { Inter } from 'next/font/google'
 
